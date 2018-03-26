@@ -1,0 +1,49 @@
+//Second Hero SASS
+
+.secondHero{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .secondHeroImageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    line-height: 3.5em;
+
+
+    h1{
+      font-size: 2.5em;
+      color: black;
+      text-align: left;
+      margin: 10% 10% 10% 10%;
+
+
+    }
+  }
+
+  .secondHeroImage{
+    height: 50%;
+    width: 100%;
+    background: url('imgs/heroStars.jpg') no-repeat 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+      font-size: 2.5em;
+      color: white;
+      font-family: 'Butler', serif;
+    }
+  }
+
+
+
+}
