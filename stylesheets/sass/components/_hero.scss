@@ -1,0 +1,17 @@
+//Hero SASS Code
+
+.intro{
+  height: 100vh;
+  width: 100vw;
+  background: url('imgs/hero.jpg') no-repeat 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    font-size: 3em;
+    color: white;
+    font-family: 'Butler Stencil', sans-serif;
+  }
+}
