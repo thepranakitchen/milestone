@@ -1,0 +1,55 @@
+//WHY WORK WITH ME sans-serif
+
+.workWithMe{
+  height: 90vh;
+  width: 100vw;
+  background: url('imgs/workwithme.jpg') no-repeat 50%;
+  background-size: cover;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+
+  h1{
+    padding-top: 5%;
+    font-size: 2.7em;
+    color: white;
+    font-family: 'Butler', sans-serif;
+  }
+}
+
+.whyReasons{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  // justify-content: center;
+  // align-items: center;
+
+  .reasons{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    h1{
+      font-size: 3.5em;
+      padding: 10% 10% 10% 10%;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 900;
+      color: #323232;
+    }
+
+    p{
+      padding: 0% 15% 0 10%;
+      font-size: 2.3em;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 100;
+      line-height: 1.2em;
+      color: #626262;
+    }
+  }
+}

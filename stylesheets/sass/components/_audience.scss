@@ -1,32 +1,35 @@
 //Audience SASS Code
 
 .audience{
-  height: 60vh;
+  height: 75vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   // align-content: center;
+  padding: 3% 10% 15% 10%;
+  box-sizing: border-box;
 
   .audienceContent{
     width: 50%;
     display: flex;
     // justify-content: center;
     flex-direction: column;
-    padding: 5% 10% 5% 10%;
+    // padding: 5% 10% 5% 10%;
     box-sizing: border-box;
 
     h1{
       font-size: 3em;
-      line-height: 2em;
+      line-height: 2.5em;
       font-family: 'Catamaran', sans-serif;
       font-weight: 500;
+      color: #182124;
     }
 
     li{
       font-size: 1.7em;
-      line-height: 1.5em;
+      line-height: 2em;
       font-family: 'Catamaran', sans-serif;
-      font-weight: lighter;
+      font-weight: 300;
     }
 
   }
