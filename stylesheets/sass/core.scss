@@ -1,6 +1,7 @@
 // Core SCSS File
 
 //IMPORTED PARTIALS
+@import 'components/menu';
 @import 'components/reset';
 @import 'components/fontfaces';
 @import 'components/hero';
@@ -8,5 +9,8 @@
 @import 'components/audience';
 @import 'components/workwithme';
 @import 'components/footer';
+
+
+@import 'components/mediaqueries';
 
 //MASTER CONTROLS

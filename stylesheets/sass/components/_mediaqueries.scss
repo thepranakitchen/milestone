@@ -1,0 +1,17 @@
+//MEDIA QUERIES
+@media screen and (max-width: 950px) {
+  .audience{
+    flex-direction: column;}
+  .audience{
+    height: auto;
+  }
+  .audienceContent{
+    margin: 0px, 0px;
+    width: auto;
+    padding: 0, 0;
+
+    h1{
+      line-height: .5em;
+    }
+  }
+}

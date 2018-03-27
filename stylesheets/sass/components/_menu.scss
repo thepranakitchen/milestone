@@ -1,0 +1,89 @@
+//MENU SASS Code
+
+.toggleBtn {
+  position:fixed;
+  top:20px;
+  right:20px;
+  z-index:5;
+  cursor:pointer;
+  width:50px;
+  height:50px;
+
+  span{
+    display:block;
+    width:40px;
+    height:5px;
+    background:#D8D8D8;
+    margin:6px 0px;
+    transition:all 300ms ease-in-out;
+  }
+}
+
+.toggleBtn.active span {
+  background:white;
+}
+.toggleBtn.active span:nth-child(2) {
+  opacity:0;
+}
+.toggleBtn.active span:nth-child(1) {
+  transform-origin:left;
+  transform:rotate(45deg) translateX(5px);
+}
+.toggleBtn.active span:nth-child(3) {
+  transform-origin:left;
+  transform:rotate(-45deg) translateY(5px);
+}
+
+.menu{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:50vh;
+
+  ul{
+    position:absolute;
+    top:-100%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:2;
+    transition:all 400ms ease-in-out 40ms;
+
+    li{
+      list-style:none;
+      font-size:45px;
+      margin:5px 0px;
+      color:#fff;
+      font-family: 'Catamaran', sans-serif;
+
+      a{
+        text-decoration: none;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+.menu:before,.menu:after {
+  content:"";
+  position:absolute;
+  top:0px;
+  width:0vw;
+  height:100vh;
+  transition:all 400ms ease-in-out;
+  background: #131F1F;
+}
+.menu:before {
+  left:0px;
+}
+.menu:after {
+  right:0px;
+}
+.menu.active:before,.menu.active:after {
+  width:50vw;
+}
+
+.menu.active ul {
+  top:50%;
+}
