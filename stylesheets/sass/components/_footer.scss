@@ -1,0 +1,39 @@
+//FOOTER SASS Code
+
+.footerCopy{
+  height: 60vh;
+  width: 100vw;
+  background-color: #1F1F1F;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    font-size: 2em;
+    line-height: 2.1em;
+    font-family: 'Butler', sans-serif;
+    letter-spacing: .14em;
+  }
+}
+
+.footerImage{
+  height: 75vh;
+  width: 100vw;
+  background: url('imgs/starsUpsideDown.jpg') no-repeat 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+    font-size: 1.53em;
+    color: white;
+    border: solid 1px;
+    padding: 5px 10px 5px 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+}
