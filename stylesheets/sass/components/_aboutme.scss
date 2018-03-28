@@ -1,0 +1,87 @@
+//ABOUT ME SASS Code
+
+// PLACEHOLDERS
+%view{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+%viewImg{
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
+%textView{
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 4% 4%;
+}
+
+//CLASSES/////////
+
+.aboutMeHero{
+  @extend %view;
+
+
+  .aboutMeHeroText{
+    @extend %textView;
+    background-color: #1C1C1C;
+
+    h1{
+      font-size: 2.8em;
+      padding-bottom: 4%;
+      font-family: 'Butler Stencil', sans-serif;
+      font-weight: 700;
+      color: #F6F6F6;
+    }
+
+    p{
+      font-size: 1.2em;
+      line-height: 1.4em;
+      color: #E8E8E8;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 100;
+
+    }
+  }
+
+  .aboutMeHeroImg{
+    @extend %viewImg;
+    background: url('imgs/profilePic.jpg') no-repeat 50%;
+  }
+}
+
+.coaching{
+  @extend %view;
+
+  .coachingImg{
+    @extend %viewImg;
+    background: url('imgs/contemplate.jpg') no-repeat 50%;
+
+  }
+  .whyCoaching{
+    @extend %textView;
+    background-color: #020001;
+
+
+    h1{
+      font-size: 2.8em;
+      padding-bottom: 4%;
+      font-family: 'Butler Stencil', sans-serif;
+      font-weight: 700;
+      color: #F2F1E7;
+    }
+
+    p{
+      font-size: 1.2em;
+      line-height: 1.3em;
+      color: #E8E8E8;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 100;
+
+    }
+  }
+}
